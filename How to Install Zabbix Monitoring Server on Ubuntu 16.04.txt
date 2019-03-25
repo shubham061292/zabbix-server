@@ -23,7 +23,7 @@ Step 6 : Database for Zabbix Server
 #mysql -u root -p
 
 #CREATE DATABASE zabbixdb;
-#GRANT ALL on zabbixdb.* to zabbix@localhost IDENTIFIED BY 'Atos@123';
+#GRANT ALL on zabbixdb.* to zabbix@localhost IDENTIFIED BY 'Password@123';
 #FLUSH PRIVILEGES;
 #exit
 
@@ -41,7 +41,7 @@ update the following
 DBHost=localhost
 DBName=zabbixdb
 DbUser=zabbix
-DBPassword=Atos@123
+DBPassword=Password@123
 
 Step 9 : Restart Services
 
